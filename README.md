@@ -56,19 +56,20 @@ Build reliable deployment workflows
 Ship private and client-facing projects
 ```
 
-## GitHub Snapshot
+## Connect
 
 <div align="center">
 
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KVdz00&theme=github_dark" alt="GitHub profile summary" />
+  <a href="https://www.instagram.com/dzikv_/">
+    <img src="https://img.shields.io/badge/Instagram-dzikv__-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram dzikv_" />
+  </a>
+  <a href="https://github.com/KVdz00">
+    <img src="https://img.shields.io/badge/GitHub-KVdz00-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub KVdz00" />
+  </a>
+  <a href="mailto:kahfiworks.id@gmail.com">
+    <img src="https://img.shields.io/badge/Email-kahfiworks.id%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email kahfiworks.id@gmail.com" />
+  </a>
 
 </div>
 
-<div align="center">
-
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=KVdz00&theme=github_dark" alt="Repositories per language" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=KVdz00&theme=github_dark" alt="Most committed languages" />
-
-</div>
-
-> Most active repositories are private, so public GitHub stat cards may not reflect the full work history.
+Open to project discussions, collaboration, and practical software ideas.
