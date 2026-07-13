@@ -1,50 +1,72 @@
-# Hi, I'm Muhammad Dzikrul Kahfi
+<div align="center">
+
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0f172a,45:2563eb,100:14b8a6&text=Muhammad%20Dzikrul%20Kahfi&fontColor=ffffff&fontSize=38&fontAlignY=38&desc=Web%20Apps%20%7C%20Desktop%20Tools%20%7C%20Game%20Modding&descAlignY=62&animation=fadeIn" alt="Muhammad Dzikrul Kahfi profile banner" />
+
+  <a href="https://github.com/KVdz00">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=800&color=14B8A6&center=true&vCenter=true&width=720&lines=Building+practical+software+with+clean+interfaces;Laravel+%2B+React+%2B+Tauri+%2B+TypeScript;Private+repos%2C+real+projects%2C+focused+execution" alt="Typing introduction" />
+  </a>
+
+  <br />
+
+  <img src="https://komarev.com/ghpvc/?username=KVdz00&style=for-the-badge&color=14b8a6&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://img.shields.io/badge/Focus-Web%20Apps-2563eb?style=for-the-badge" alt="Focus web apps" />
+  <img src="https://img.shields.io/badge/Builds-Desktop%20Tools-0f172a?style=for-the-badge" alt="Builds desktop tools" />
+
+</div>
+
+## About
 
 I build web apps, desktop utilities, and small tools with a focus on practical user flows, clean interfaces, and maintainable implementation.
 
-## Focus
-
-- Web application development with Laravel, Blade, Tailwind CSS, Alpine.js, PHP, MySQL, and SQLite.
-- Front-end development with HTML, CSS, JavaScript, React, TypeScript, and Vite.
-- Desktop utility development with Tauri, React, TypeScript, and Rust-backed tooling.
-- Game and mod tooling, including Java-based Minecraft Fabric mods.
-
-## Selected Work
-
-### Liquid Utility
-
-A personal Windows desktop utility app built with Tauri, React, and TypeScript. It includes a modular dashboard, game launcher, hardware snapshot view, media preview tools, themes, and CI verification.
-
-### Arindra Production Web
-
-A Laravel Blade website redesign using Tailwind CSS, Alpine.js, Vite, SQLite, admin authentication, CMS-style content management, dynamic forms, and structured project documentation.
-
-### Website Kota Medan
-
-An information platform for Medan with tourism, culture, landmarks, local products, games, reviews, authentication, user profiles, admin dashboard, role-based access, and responsive layouts.
-
-### ModToggle
-
-A client-side Fabric mod for Minecraft that provides an in-game interface and commands for soft-disabling selected mods without restarting where runtime behavior allows it.
-
-### Portfolio
-
-A personal portfolio website with Firebase and Cloudinary integration.
+Most of my active repositories are private, so this profile highlights the type of work I design, build, document, and maintain.
 
 ## Tech Stack
 
-```text
-Languages:   TypeScript, JavaScript, PHP, Java, HTML, CSS, SQL
-Frontend:    React, Tailwind CSS, Alpine.js, Vite, Blade
-Backend:     Laravel, PHP, MySQL, SQLite
-Desktop:     Tauri
-Tooling:     Git, GitHub Actions, npm, Composer, Gradle
-```
+<div align="center">
+
+  <img src="https://skillicons.dev/icons?i=ts,js,react,vite,tailwind,php,laravel,mysql,sqlite,java,html,css,git,githubactions" alt="Tech stack icons" />
+
+</div>
+
+| Area | Tools |
+| --- | --- |
+| Frontend | React, TypeScript, JavaScript, Tailwind CSS, Alpine.js, Vite, Blade |
+| Backend | Laravel, PHP, MySQL, SQLite |
+| Desktop | Tauri, React, TypeScript |
+| Game and mod tools | Java, Fabric modding |
+| Workflow | Git, GitHub Actions, npm, Composer, Gradle |
+
+## Selected Work
+
+| Project | Stack | What it does |
+| --- | --- | --- |
+| Liquid Utility | Tauri, React, TypeScript | Windows desktop utility with dashboard modules, game launcher, hardware snapshots, media preview tools, themes, and CI verification. |
+| Arindra Production Web | Laravel, Blade, Tailwind, Alpine.js | Website redesign with CMS-style content management, admin authentication, dynamic forms, SQLite workflow, and structured documentation. |
+| Website Kota Medan | PHP, MySQL, HTML, CSS, JavaScript | Information platform with tourism, culture, landmarks, local products, reviews, auth, user profiles, admin dashboard, and responsive pages. |
+| ModToggle | Java, Fabric | Minecraft client-side mod for soft-disabling selected mods through GUI and commands where runtime behavior allows it. |
+| Portfolio | Firebase, Cloudinary, Web | Personal portfolio project with media and content integration. |
 
 ## Current Direction
 
-I am currently improving my project architecture, UI polish, documentation quality, and deployment workflow across private and client-facing projects.
+```text
+Improve architecture
+Polish user interfaces
+Write clearer documentation
+Build reliable deployment workflows
+Ship private and client-facing projects
+```
 
-## GitHub
+## GitHub Snapshot
 
-Most of my active repositories are private, but this profile highlights the type of work I build and maintain.
+<div align="center">
+
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=KVdz00&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KVdz00&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages" />
+
+</div>
+
+<div align="center">
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=KVdz00&theme=react-dark&hide_border=true&area=true" alt="GitHub activity graph" />
+
+</div>
