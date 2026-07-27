@@ -73,3 +73,5 @@ Ship private and client-facing projects
 </div>
 
 Open to project discussions, collaboration, and practical software ideas.
+
+:D
