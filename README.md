@@ -2,7 +2,7 @@
 
 # Muhammad Dzikrul Kahfi
 
-**Software developer building practical web apps, desktop tools, and utilities.**
+### Software developer building web products, desktop software, and practical tools.
 
 <p>
   <a href="https://github.com/KVdz00">
@@ -16,101 +16,135 @@
   </a>
 </p>
 
-`Web Applications` · `Desktop Software` · `Developer Tools` · `Game Modding`
+`Full-stack Web` · `Desktop / Native` · `Developer Tools` · `Automation` · `Game Modding`
 
 </div>
 
 ---
 
-### About
+## About
 
-I like building software that solves a concrete problem and still feels good to use.
+I build software around real workflows rather than isolated demos — from full-stack web products to Windows desktop utilities and small developer tools.
 
-My work spans full-stack web applications, desktop utilities, automation-oriented tooling, and game/modding projects. I pay particular attention to interface quality, maintainable architecture, predictable workflows, documentation, and reliable builds.
+I care about clean interfaces, explicit architecture, sensible runtime boundaries, predictable state, useful documentation, and verification that survives beyond the first working prototype.
 
-Most of my active development lives in **private repositories**, so this profile is intentionally focused on what I build and how I work rather than on public repository counts or GitHub statistics.
+> Most of my active development lives in **private repositories**. This profile is therefore a view of the systems I build and the engineering practices behind them, not a catalogue of public source code.
 
-### What I build
+## What I build
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-**Web applications**
+### Web products
 
-Full-stack applications, content-driven sites, dashboards, authentication flows, administration interfaces, APIs, and persistence.
-
-</td>
-<td width="33%" valign="top">
-
-**Desktop software**
-
-Windows utilities and tools built around focused workflows, modular interfaces, local system integration, and practical UX.
+Full-stack applications, dashboards, content systems, authentication, persistence, interactive experiences, and responsive interfaces.
 
 </td>
 <td width="33%" valign="top">
 
-**Tools & modding**
+### Desktop software
 
-Small utilities, automation helpers, developer tooling, and client-side game/modding experiments.
+Windows utilities with native integration, local state, hardware/system workflows, media tooling, and focused application UX.
+
+</td>
+<td width="33%" valign="top">
+
+### Tools & experiments
+
+Automation helpers, developer utilities, workflow tooling, game/modding projects, and smaller software experiments.
 
 </td>
 </tr>
 </table>
 
-### Toolbox
+## Private project highlights
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Liquid Utility
+
+**Tauri · React · TypeScript · Rust**
+
+A modular Windows desktop utility with native-backed workflows for game launching, hardware monitoring, system maintenance, media preview, and application settings.
+
+The project separates renderer concerns from native authority, uses explicit Tauri commands for privileged operations, and includes packaged-app smoke verification and release-oriented workflows.
+
+</td>
+<td width="50%" valign="top">
+
+### Filsafit
+
+**Next.js · React · TypeScript · Supabase**
+
+A full-stack interactive philosophy product combining an encyclopedia, comparison views, a scored quiz experience, profiles/history, authentication, and shareable visual results.
+
+The application uses App Router server/client boundaries, PostgreSQL-backed persistence with RLS, tested scoring logic, and CI gates for type checking, linting, and production builds.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Arindra Production Web
+
+**Laravel · Blade · Tailwind CSS · Alpine.js**
+
+A content-driven web application with administration workflows, authentication, dynamic forms, persistence, responsive UI, and structured project documentation.
+
+</td>
+<td width="50%" valign="top">
+
+### Other work
+
+**Java · Fabric · PHP · MySQL · Web tooling**
+
+Client-side game/modding tools, information platforms, portfolio work, downloader/utilities, automation-oriented experiments, and other private projects developed around practical use cases.
+
+</td>
+</tr>
+</table>
+
+## Toolbox
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,vite,tailwind,php,laravel,mysql,sqlite,java,html,css,git,githubactions" alt="TypeScript, JavaScript, React, Vite, Tailwind CSS, PHP, Laravel, MySQL, SQLite, Java, HTML, CSS, Git and GitHub Actions" />
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vite,tailwind,php,laravel,rust,tauri,mysql,sqlite,supabase,java,html,css,git,githubactions" alt="Technology stack" />
 
 </div>
 
 | Area | Technologies |
 | --- | --- |
-| **Frontend** | React, TypeScript, JavaScript, Tailwind CSS, Alpine.js, Vite, Blade |
-| **Backend** | Laravel, PHP, MySQL, SQLite |
-| **Desktop** | Tauri, React, TypeScript |
-| **Tools / Modding** | Java, Fabric |
-| **Workflow** | Git, GitHub Actions, npm, Composer, Gradle, AI-assisted development |
+| **Frontend** | React, Next.js, TypeScript, JavaScript, Tailwind CSS, Alpine.js, Vite, Blade |
+| **Backend & Data** | Laravel, PHP, Supabase, PostgreSQL, MySQL, SQLite |
+| **Desktop / Native** | Tauri, Rust, React, TypeScript |
+| **Tools / Modding** | Java, Fabric, scripting and automation tooling |
+| **Workflow** | Git, GitHub Actions, npm, Composer, Cargo, Gradle, AI-assisted development |
 
-### Selected work
-
-These are examples of the kinds of systems I have designed and built. Most active codebases are private.
-
-**Liquid Utility**  
-Windows desktop utility built with Tauri, React, and TypeScript. Includes dashboard-style modules, launcher tooling, hardware information, media utilities, theming, and CI-oriented verification.
-
-**Arindra Production Web**  
-Laravel-based content website with administration workflows, authentication, dynamic forms, persistent data, responsive interfaces, and structured project documentation.
-
-**Website Kota Medan**  
-PHP and MySQL information platform covering tourism, culture, landmarks, local products, user accounts, reviews, profiles, and administrative functionality.
-
-**Toggle-Mod**  
-Java/Fabric client-side Minecraft tooling for controlling selected mod behavior through GUI and command-based workflows.
-
-### Engineering priorities
+## How I like to build
 
 ```text
-simple before clever
-clear architecture over accidental complexity
-fast and usable interfaces
-repeatable development workflows
-useful documentation
-reliable builds and verification
-ship, learn, refine
+Understand the problem before expanding the feature set.
+Keep architecture explicit and runtime boundaries intentional.
+Prefer maintainable code over clever code.
+Treat UI/UX as part of engineering quality.
+Automate checks that should not depend on memory.
+Document decisions that future work will depend on.
+Use AI as an engineering tool, not as a replacement for judgment.
+Ship, measure, refine.
 ```
 
-### Current direction
+## Current direction
 
-I'm continuing to improve how I structure projects, design interfaces, automate repetitive development work, and use AI-assisted tooling without treating generated code as a substitute for engineering judgment.
+I'm continuing to improve how I design software architecture, build polished interfaces, automate development workflows, test real application behavior, and use agentic development tools while keeping implementation decisions reviewable and understandable.
 
 <div align="center">
 
 ---
 
-**Build things that are useful. Keep the implementation understandable.**
+**Build useful software. Keep the system understandable.**
 
 <sub>Open to project discussions, collaboration, and practical software ideas.</sub>
 
