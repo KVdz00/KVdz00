@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0B1020,50:16213E,100:0F766E&text=Muhammad%20Dzikrul%20Kahfi&fontColor=F8FAFC&fontSize=36&fontAlignY=38&desc=Software%20Developer%20%E2%80%A2%20Private-first%20Builder&descAlignY=61&descSize=16&animation=fadeIn" alt="Muhammad Dzikrul Kahfi profile header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:0B1020,50:16213E,100:0F766E&text=Muhammad%20Dzikrul%20Kahfi&fontColor=F8FAFC&fontSize=36&fontAlignY=39&desc=Software%20Developer&descAlignY=61&descSize=16&animation=fadeIn" alt="Muhammad Dzikrul Kahfi profile header" />
 
-**Full-stack Web** · **Desktop / Native** · **Developer Tools** · **Automation**
+**Web apps · Desktop tools · Utilities · Modding**
 
 <br />
 
@@ -14,17 +14,15 @@
 
 <br />
 
-## About
+## Hey
 
-I build software around real workflows — full-stack web products, Windows desktop utilities, internal tools, automation, and smaller experiments.
+I'm Kahfi. I mostly build web apps, Windows tools, and small utilities.
 
-I care about clear interfaces, explicit architecture, intentional runtime boundaries, useful documentation, and repeatable verification.
-
-> Most of my active development lives in **private repositories**. This profile focuses on the systems I build and how I approach engineering, rather than public repository counts.
+A lot of my actual work is in private repositories, so the public repo list does not tell the whole story. This README is just a quick look at the projects and tech I spend most of my time on.
 
 <br />
 
-## Featured private work
+## Stuff I've been building
 
 <table>
 <tr>
@@ -32,36 +30,37 @@ I care about clear interfaces, explicit architecture, intentional runtime bounda
 
 ### Liquid Utility
 
-`Tauri` · `React` · `TypeScript` · `Rust`
+`Tauri` `React` `TypeScript` `Rust`
 
-Windows desktop utility with native-backed workflows for game launching, hardware monitoring, system maintenance, media preview, and settings.
+A Windows utility with a game launcher, hardware monitoring, system cleanup tools, local media preview, and app settings.
 
-<sub><b>Focus:</b> native boundaries · local state · system integration · packaged-app verification</sub>
+The UI lives in React. Native and system-level work goes through Rust commands in Tauri. I've also been working on packaged-app smoke tests and release checks instead of only testing it in dev mode.
 
 </td>
 <td width="50%" valign="top">
 
 ### Filsafit
 
-`Next.js` · `React` · `TypeScript` · `Supabase`
+`Next.js` `React` `TypeScript` `Supabase`
 
-Full-stack interactive philosophy product with encyclopedia content, comparison views, scored quizzes, profiles, authentication, and shareable results.
+A philosophy web app with an encyclopedia, school comparison, a scored quiz, profiles, auth, history, and shareable result cards.
 
-<sub><b>Focus:</b> full-stack architecture · domain logic · auth · data modeling · CI</sub>
+Supabase handles Postgres, auth, and RLS. The quiz scoring is kept as its own domain logic with tests, and CI checks type errors, lint, and production builds.
 
 </td>
 </tr>
 </table>
 
-### Also built
+### Other projects
 
-- **Arindra Production Web** — Laravel content platform with administration, authentication, dynamic forms, persistence, responsive UI, and structured documentation.
-- **Game / modding tools** — Java and Fabric client-side tooling plus smaller experiments around practical workflows.
-- **Utilities & web tooling** — downloader tools, information platforms, portfolio work, scripting, and automation-oriented projects.
+- **Arindra Production Web:** Laravel site with an admin area, auth, forms, content management, and responsive pages.
+- **Toggle-Mod:** client-side Minecraft tooling built with Java and Fabric.
+- **QuickDL and other utilities:** smaller tools, downloaders, scripts, and experiments that usually start because I want something for myself.
+- **Older web projects:** PHP/MySQL sites, portfolio work, and a few projects I use to try different stacks and UI ideas.
 
 <br />
 
-## Tech stack
+## Stack
 
 <div align="center">
 
@@ -71,52 +70,23 @@ Full-stack interactive philosophy product with encyclopedia content, comparison 
 
 <br />
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Web**  
-React · Next.js · TypeScript · JavaScript · Tailwind CSS · Laravel · PHP
-
-**Data**  
-Supabase · PostgreSQL · MySQL · SQLite
-
-</td>
-<td width="50%" valign="top">
-
-**Desktop / Native**  
-Tauri · Rust · React · TypeScript
-
-**Workflow**  
-Git · GitHub Actions · npm · Composer · Cargo · Gradle · AI-assisted development
-
-</td>
-</tr>
-</table>
+**Web:** React, Next.js, TypeScript, JavaScript, Tailwind CSS, Laravel, PHP  
+**Desktop:** Tauri, Rust  
+**Data:** Supabase, PostgreSQL, MySQL, SQLite  
+**Other:** Java, Fabric, GitHub Actions, Gradle, Cargo
 
 <br />
 
-## Engineering principles
+## How I work
 
-- **Architecture:** keep boundaries explicit and complexity intentional.
-- **Product quality:** treat UI/UX, performance, and maintainability as the same engineering problem.
-- **Verification:** automate checks that should not depend on memory or manual repetition.
-- **AI-assisted development:** use agents to increase leverage while keeping decisions reviewable and understandable.
+I use coding agents pretty heavily for implementation, debugging, research, and repetitive repo work. I still review the architecture, diffs, tests, and anything that touches important behavior before I keep it.
 
-<br />
-
-## Current direction
-
-Improving software architecture, polished product interfaces, desktop/native workflows, automated verification, and agentic development practices across real projects.
+For bigger projects I tend to keep architecture notes, task plans, and decisions in the repo because it is easier than trying to remember why something was built a certain way three weeks later.
 
 <div align="center">
 
 <br />
 
-**Build useful software. Keep the system understandable.**
-
-<sub>Open to project discussions, collaboration, and practical software ideas.</sub>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=90&section=footer&color=0:0B1020,50:16213E,100:0F766E" alt="Profile footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=80&section=footer&color=0:0B1020,50:16213E,100:0F766E" alt="Profile footer" />
 
 </div>
