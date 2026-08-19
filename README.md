@@ -21,7 +21,7 @@ I'm a developer focused on building practical software: web applications, deskto
 
 I care about the parts that make software pleasant to actually use and maintain — clear UI, sensible architecture, predictable workflows, documentation, and reliable builds.
 
-A large part of my work currently lives in private repositories, so this profile is a compact overview of what I build and the technologies I work with.
+Most of my development happens in private repositories. This profile focuses on the engineering areas, technologies, and project types I actively work with rather than acting as a catalogue of public source code.
 
 ## What I work with
 
@@ -41,6 +41,8 @@ A large part of my work currently lives in private repositories, so this profile
 
 ## Selected work
 
+These are representative projects and areas I've worked on. Most active codebases are private.
+
 | Project | Stack | Focus |
 | --- | --- | --- |
 | **Liquid Utility** | Tauri, React, TypeScript | Windows desktop utility with dashboard modules, launcher tooling, hardware information, media utilities, theming, and CI verification. |
@@ -48,8 +50,6 @@ A large part of my work currently lives in private repositories, so this profile
 | **Website Kota Medan** | PHP, MySQL, HTML, CSS, JavaScript | Information platform covering tourism, culture, landmarks, local products, reviews, accounts, and administration. |
 | **Toggle-Mod** | Java, Fabric | Minecraft client-side tooling for controlling selected mod behavior through GUI and command-based workflows. |
 | **Portfolio** | Web, Firebase, Cloudinary | Personal portfolio work with content and media integration. |
-
-> Most active projects are private while they are being developed or maintained.
 
 ## Current focus
 
@@ -61,12 +61,6 @@ Improve testing, CI and deployment reliability
 Write documentation that remains useful later
 Ship projects instead of leaving them as prototypes
 ```
-
-## Public repository
-
-<a href="https://github.com/KVdz00/KVdz00-portfolio-v2">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=KVdz00&repo=KVdz00-portfolio-v2&theme=transparent&hide_border=true&title_color=14b8a6&icon_color=2563eb&text_color=94a3b8" alt="KVdz00 Portfolio v2 repository" />
-</a>
 
 ## Connect
 
