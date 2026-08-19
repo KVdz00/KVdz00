@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:0B1020,50:16213E,100:0F766E&text=Muhammad%20Dzikrul%20Kahfi&fontColor=F8FAFC&fontSize=36&fontAlignY=39&desc=Software%20Developer&descAlignY=61&descSize=16&animation=fadeIn" alt="Muhammad Dzikrul Kahfi profile header" />
-
-**Web apps · Desktop tools · Utilities · Modding**
+<img src="./assets/profile-header.svg" alt="Muhammad Dzikrul Kahfi profile header" width="100%" />
 
 <br />
 
@@ -16,13 +14,13 @@
 
 ## About
 
-I'm Kahfi. I mostly build web apps, Windows tools, and small utilities.
+I'm Kahfi. I build web apps, Windows tools, utilities, and the occasional Minecraft mod.
 
-Most of my active projects are private, so I use this README to show what I've been working on and the tech behind it.
+Most of my active projects are private. The projects below are the ones that best show what I spend my time building.
 
 <br />
 
-## What I've been building
+## Selected work
 
 ### Liquid Utility
 
@@ -30,7 +28,7 @@ Most of my active projects are private, so I use this README to show what I've b
 
 A Windows utility with a game launcher, hardware monitoring, system cleanup tools, local media preview, and app settings.
 
-The UI lives in React. Native and system-level work goes through Rust commands in Tauri. I also test packaged builds with smoke checks and release checks instead of relying only on dev mode.
+React owns the UI. Native and system-level work goes through Rust commands in Tauri. Packaged builds have their own smoke checks and release checks, so testing is not limited to dev mode.
 
 <br />
 
@@ -38,9 +36,9 @@ The UI lives in React. Native and system-level work goes through Rust commands i
 
 `Next.js` `React` `TypeScript` `Supabase`
 
-A philosophy web app with an encyclopedia, school comparison, a scored quiz, profiles, auth, history, and shareable result cards.
+A philosophy web app with an encyclopedia, school comparison, scored quiz, profiles, auth, history, and shareable result cards.
 
-Supabase handles Postgres, auth, and RLS. Quiz scoring is kept as separate domain logic with tests, and CI checks types, lint, and production builds.
+Supabase handles Postgres, auth, and RLS. Quiz scoring is isolated as domain logic with tests. CI checks types, lint, and production builds.
 
 <br />
 
@@ -48,38 +46,29 @@ Supabase handles Postgres, auth, and RLS. Quiz scoring is kept as separate domai
 
 - **Arindra Production Web:** Laravel site with an admin area, auth, forms, content management, and responsive pages.
 - **Toggle-Mod:** client-side Minecraft tooling built with Java and Fabric.
-- **QuickDL and other utilities:** smaller tools, downloaders, scripts, and experiments that usually start because I want something for myself.
+- **QuickDL:** a small downloader utility.
 - **Older web projects:** PHP/MySQL sites, portfolio work, and projects I use to try different stacks and UI ideas.
 
 <br />
 
-## Stack
+## Tech I use
 
-<div align="center">
+**Web**  
+`React` `Next.js` `TypeScript` `JavaScript` `Tailwind CSS` `Laravel` `PHP`
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vite,tailwind,php,laravel,rust,tauri,mysql,sqlite,supabase,java,git,githubactions&perline=8" alt="Technology stack" />
+**Desktop**  
+`Tauri` `Rust`
 
-</div>
+**Data**  
+`Supabase` `PostgreSQL` `MySQL` `SQLite`
 
-<br />
-
-**Web:** React, Next.js, TypeScript, JavaScript, Tailwind CSS, Laravel, PHP  
-**Desktop:** Tauri, Rust  
-**Data:** Supabase, PostgreSQL, MySQL, SQLite  
-**Other:** Java, Fabric, GitHub Actions, Gradle, Cargo
-
-<br />
-
-## How I work
-
-Coding agents are part of my normal workflow for implementation, debugging, research, and repetitive repo work. I still review architecture, diffs, tests, and changes that affect important behavior before I keep them.
-
-For bigger projects I keep architecture notes, task plans, and decisions in the repo. It makes it much easier to come back later and understand why something was built a certain way.
-
-<div align="center">
+**Tools**  
+`Git` `GitHub Actions` `Gradle` `Cargo` `Fabric`
 
 <br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=80&section=footer&color=0:0B1020,50:16213E,100:0F766E" alt="Profile footer" />
+## Workflow
 
-</div>
+Coding agents are part of my normal setup for implementation, debugging, research, and repetitive repo work. I review architecture, diffs, tests, and changes that affect important behavior before keeping them.
+
+For larger projects I keep architecture notes, task plans, and decisions in the repo. It makes returning to a project later much easier.
