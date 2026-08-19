@@ -14,19 +14,15 @@
 
 <br />
 
-## Hey
+## About
 
 I'm Kahfi. I mostly build web apps, Windows tools, and small utilities.
 
-A lot of my actual work is in private repositories, so the public repo list does not tell the whole story. This README is just a quick look at the projects and tech I spend most of my time on.
+Most of my active projects are private, so I use this README to show what I've been working on and the tech behind it.
 
 <br />
 
-## Stuff I've been building
-
-<table>
-<tr>
-<td width="50%" valign="top">
+## What I've been building
 
 ### Liquid Utility
 
@@ -34,10 +30,9 @@ A lot of my actual work is in private repositories, so the public repo list does
 
 A Windows utility with a game launcher, hardware monitoring, system cleanup tools, local media preview, and app settings.
 
-The UI lives in React. Native and system-level work goes through Rust commands in Tauri. I've also been working on packaged-app smoke tests and release checks instead of only testing it in dev mode.
+The UI lives in React. Native and system-level work goes through Rust commands in Tauri. I also test packaged builds with smoke checks and release checks instead of relying only on dev mode.
 
-</td>
-<td width="50%" valign="top">
+<br />
 
 ### Filsafit
 
@@ -45,18 +40,16 @@ The UI lives in React. Native and system-level work goes through Rust commands i
 
 A philosophy web app with an encyclopedia, school comparison, a scored quiz, profiles, auth, history, and shareable result cards.
 
-Supabase handles Postgres, auth, and RLS. The quiz scoring is kept as its own domain logic with tests, and CI checks type errors, lint, and production builds.
+Supabase handles Postgres, auth, and RLS. Quiz scoring is kept as separate domain logic with tests, and CI checks types, lint, and production builds.
 
-</td>
-</tr>
-</table>
+<br />
 
 ### Other projects
 
 - **Arindra Production Web:** Laravel site with an admin area, auth, forms, content management, and responsive pages.
 - **Toggle-Mod:** client-side Minecraft tooling built with Java and Fabric.
 - **QuickDL and other utilities:** smaller tools, downloaders, scripts, and experiments that usually start because I want something for myself.
-- **Older web projects:** PHP/MySQL sites, portfolio work, and a few projects I use to try different stacks and UI ideas.
+- **Older web projects:** PHP/MySQL sites, portfolio work, and projects I use to try different stacks and UI ideas.
 
 <br />
 
@@ -79,9 +72,9 @@ Supabase handles Postgres, auth, and RLS. The quiz scoring is kept as its own do
 
 ## How I work
 
-I use coding agents pretty heavily for implementation, debugging, research, and repetitive repo work. I still review the architecture, diffs, tests, and anything that touches important behavior before I keep it.
+Coding agents are part of my normal workflow for implementation, debugging, research, and repetitive repo work. I still review architecture, diffs, tests, and changes that affect important behavior before I keep them.
 
-For bigger projects I tend to keep architecture notes, task plans, and decisions in the repo because it is easier than trying to remember why something was built a certain way three weeks later.
+For bigger projects I keep architecture notes, task plans, and decisions in the repo. It makes it much easier to come back later and understand why something was built a certain way.
 
 <div align="center">
 
