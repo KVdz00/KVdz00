@@ -1,58 +1,56 @@
 <div align="center">
 
-# Muhammad Dzikrul Kahfi
-
-### Software developer building web products, desktop software, and practical tools.
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:0B1020,45:16213E,100:0F766E&text=Muhammad%20Dzikrul%20Kahfi&fontColor=F8FAFC&fontSize=38&fontAlignY=38&desc=Software%20Developer%20%E2%80%A2%20Private-first%20Builder&descAlignY=60&descSize=17&animation=fadeIn" alt="Muhammad Dzikrul Kahfi profile header" />
 
 <p>
   <a href="https://github.com/KVdz00">
-    <img src="https://img.shields.io/badge/GitHub-KVdz00-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-KVdz00-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="mailto:kahfiworks.id@gmail.com">
-    <img src="https://img.shields.io/badge/Email-kahfiworks.id%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-kahfiworks.id%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://www.instagram.com/dzikv_/">
-    <img src="https://img.shields.io/badge/Instagram-dzikv__-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+    <img src="https://img.shields.io/badge/Instagram-dzikv__-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </p>
 
-`Full-stack Web` · `Desktop / Native` · `Developer Tools` · `Automation` · `Game Modding`
+**Full-stack Web** · **Desktop / Native** · **Developer Tools** · **Automation** · **Game Modding**
 
 </div>
 
 ---
 
-## About
+## Profile
 
-I build software around real workflows rather than isolated demos — from full-stack web products to Windows desktop utilities and small developer tools.
+I build software around real workflows rather than isolated demos — from full-stack web products to Windows desktop utilities, internal tools, automation, and game/modding projects.
 
-I care about clean interfaces, explicit architecture, sensible runtime boundaries, predictable state, useful documentation, and verification that survives beyond the first working prototype.
+My engineering priorities are straightforward: make the interface clear, keep architecture explicit, define runtime boundaries intentionally, document decisions that matter, and automate verification wherever repetition would otherwise become a source of mistakes.
 
-> Most of my active development lives in **private repositories**. This profile is therefore a view of the systems I build and the engineering practices behind them, not a catalogue of public source code.
+> **Most of my active work is private.** This profile is a view into the systems I build, the technologies I use, and the way I approach engineering — not a scoreboard of public repository counts.
 
-## What I build
+## Build surface
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### Web products
+### ◇ Web products
 
-Full-stack applications, dashboards, content systems, authentication, persistence, interactive experiences, and responsive interfaces.
+Full-stack applications, dashboards, content systems, authentication, persistence, interactive experiences, and responsive product interfaces.
 
 </td>
 <td width="33%" valign="top">
 
-### Desktop software
+### ◇ Desktop software
 
 Windows utilities with native integration, local state, hardware/system workflows, media tooling, and focused application UX.
 
 </td>
 <td width="33%" valign="top">
 
-### Tools & experiments
+### ◇ Tools & experiments
 
-Automation helpers, developer utilities, workflow tooling, game/modding projects, and smaller software experiments.
+Developer utilities, workflow automation, game/modding projects, scripting, and smaller software experiments built around concrete use cases.
 
 </td>
 </tr>
@@ -66,22 +64,28 @@ Automation helpers, developer utilities, workflow tooling, game/modding projects
 
 ### Liquid Utility
 
-**Tauri · React · TypeScript · Rust**
+`Tauri` `React` `TypeScript` `Rust`
 
 A modular Windows desktop utility with native-backed workflows for game launching, hardware monitoring, system maintenance, media preview, and application settings.
 
-The project separates renderer concerns from native authority, uses explicit Tauri commands for privileged operations, and includes packaged-app smoke verification and release-oriented workflows.
+The project keeps renderer concerns separate from native authority, exposes privileged operations through explicit Tauri commands, and includes packaged-app smoke verification plus release-oriented workflows.
+
+**Engineering signals**  
+Native boundary design · local state · system integration · verification · release workflow
 
 </td>
 <td width="50%" valign="top">
 
 ### Filsafit
 
-**Next.js · React · TypeScript · Supabase**
+`Next.js` `React` `TypeScript` `Supabase`
 
 A full-stack interactive philosophy product combining an encyclopedia, comparison views, a scored quiz experience, profiles/history, authentication, and shareable visual results.
 
 The application uses App Router server/client boundaries, PostgreSQL-backed persistence with RLS, tested scoring logic, and CI gates for type checking, linting, and production builds.
+
+**Engineering signals**  
+Full-stack architecture · domain logic · auth · data modeling · CI
 
 </td>
 </tr>
@@ -90,18 +94,24 @@ The application uses App Router server/client boundaries, PostgreSQL-backed pers
 
 ### Arindra Production Web
 
-**Laravel · Blade · Tailwind CSS · Alpine.js**
+`Laravel` `Blade` `Tailwind CSS` `Alpine.js`
 
 A content-driven web application with administration workflows, authentication, dynamic forms, persistence, responsive UI, and structured project documentation.
+
+**Engineering signals**  
+CMS workflows · backend forms · authentication · maintainable content architecture
 
 </td>
 <td width="50%" valign="top">
 
-### Other work
+### Other private work
 
-**Java · Fabric · PHP · MySQL · Web tooling**
+`Java` `Fabric` `PHP` `MySQL` `Web tooling`
 
-Client-side game/modding tools, information platforms, portfolio work, downloader/utilities, automation-oriented experiments, and other private projects developed around practical use cases.
+Client-side game/modding tools, information platforms, portfolio work, downloader/utilities, automation-oriented experiments, and other practical software projects.
+
+**Engineering signals**  
+Rapid tooling · experimentation · practical automation · multi-stack delivery
 
 </td>
 </tr>
@@ -115,37 +125,39 @@ Client-side game/modding tools, information platforms, portfolio work, downloade
 
 </div>
 
-| Area | Technologies |
+| Layer | Tools |
 | --- | --- |
 | **Frontend** | React, Next.js, TypeScript, JavaScript, Tailwind CSS, Alpine.js, Vite, Blade |
 | **Backend & Data** | Laravel, PHP, Supabase, PostgreSQL, MySQL, SQLite |
 | **Desktop / Native** | Tauri, Rust, React, TypeScript |
 | **Tools / Modding** | Java, Fabric, scripting and automation tooling |
-| **Workflow** | Git, GitHub Actions, npm, Composer, Cargo, Gradle, AI-assisted development |
+| **Engineering Workflow** | Git, GitHub Actions, npm, Composer, Cargo, Gradle, AI-assisted development |
 
-## How I like to build
+## Engineering operating system
 
 ```text
-Understand the problem before expanding the feature set.
-Keep architecture explicit and runtime boundaries intentional.
-Prefer maintainable code over clever code.
-Treat UI/UX as part of engineering quality.
-Automate checks that should not depend on memory.
-Document decisions that future work will depend on.
-Use AI as an engineering tool, not as a replacement for judgment.
-Ship, measure, refine.
+01  Understand the workflow before expanding the feature set.
+02  Keep architecture explicit and runtime boundaries intentional.
+03  Prefer maintainable code over clever code.
+04  Treat UI/UX as part of engineering quality.
+05  Automate checks that should not depend on memory.
+06  Document decisions that future work will depend on.
+07  Use AI as an engineering tool, not a replacement for judgment.
+08  Ship. Measure. Refine.
 ```
 
 ## Current direction
 
-I'm continuing to improve how I design software architecture, build polished interfaces, automate development workflows, test real application behavior, and use agentic development tools while keeping implementation decisions reviewable and understandable.
+Right now I am pushing further into software architecture, polished product interfaces, desktop/native workflows, automated verification, and agentic development practices that keep implementation decisions reviewable and understandable.
 
 <div align="center">
 
----
+<br />
 
-**Build useful software. Keep the system understandable.**
+### Build useful software. Keep the system understandable.
 
 <sub>Open to project discussions, collaboration, and practical software ideas.</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0B1020,45:16213E,100:0F766E" alt="Profile footer" />
 
 </div>
