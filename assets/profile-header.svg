@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Muhammad Dzikrul Kahfi</title>
+  <desc id="desc">Software developer building web apps, Windows tools, utilities, and modding projects.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.52" stop-color="#111b35"/>
+      <stop offset="1" stop-color="#0f3d3a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="280" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="280" rx="24" fill="url(#grid)"/>
+
+  <circle cx="1090" cy="-10" r="190" fill="#2dd4bf" fill-opacity="0.055"/>
+  <circle cx="1135" cy="18" r="108" fill="none" stroke="#38bdf8" stroke-opacity="0.14" stroke-width="1"/>
+  <path d="M890 36 H1164" stroke="#2dd4bf" stroke-opacity="0.18" stroke-width="1"/>
+  <path d="M914 58 H1164" stroke="#38bdf8" stroke-opacity="0.12" stroke-width="1"/>
+
+  <rect x="54" y="46" width="52" height="52" rx="12" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+  <text x="80" y="80" text-anchor="middle" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="24" font-weight="700">K</text>
+
+  <text x="128" y="64" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="2">@KVDZ00</text>
+  <text x="54" y="145" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="42" font-weight="700">Muhammad Dzikrul Kahfi</text>
+  <rect x="54" y="163" width="354" height="4" rx="2" fill="url(#accent)"/>
+  <text x="54" y="202" fill="#cbd5e1" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18">Web apps / Windows tools / utilities / modding</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+    <rect x="54" y="224" width="152" height="30" rx="15" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-opacity="0.28"/>
+    <text x="130" y="244" text-anchor="middle" fill="#bae6fd">React + TypeScript</text>
+
+    <rect x="218" y="224" width="128" height="30" rx="15" fill="#2dd4bf" fill-opacity="0.10" stroke="#2dd4bf" stroke-opacity="0.28"/>
+    <text x="282" y="244" text-anchor="middle" fill="#99f6e4">Tauri + Rust</text>
+
+    <rect x="358" y="224" width="166" height="30" rx="15" fill="#ffffff" fill-opacity="0.055" stroke="#ffffff" stroke-opacity="0.13"/>
+    <text x="441" y="244" text-anchor="middle" fill="#e2e8f0">Next.js + Supabase</text>
+  </g>
+</svg>
