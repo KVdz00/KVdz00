@@ -2,6 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=160&color=0:0f172a,50:2563eb,100:14b8a6&text=Muhammad%20Dzikrul%20Kahfi&fontColor=ffffff&fontSize=34&fontAlignY=40&desc=Web%20Apps%20%7C%20Desktop%20Tools%20%7C%20Utilities&descAlignY=65&descSize=15" alt="Muhammad Dzikrul Kahfi profile banner" />
 
+<a href="https://kvdz00-portfolio-v2.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Live%20Site-2563EB?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 <a href="https://github.com/KVdz00"><img src="https://img.shields.io/badge/GitHub-KVdz00-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 <a href="mailto:kahfiworks.id@gmail.com"><img src="https://img.shields.io/badge/Email-kahfiworks.id%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://www.instagram.com/dzikv_/"><img src="https://img.shields.io/badge/Instagram-dzikv__-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
